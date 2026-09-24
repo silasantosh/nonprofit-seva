@@ -6,11 +6,31 @@
 	"settings": {
 		"color": {
 			"palette": [
-				{ "slug": "base", "color": "#ffffff", "name": "Base" },
-				{ "slug": "contrast", "color": "#1c1917", "name": "Contrast" },
-				{ "slug": "accent", "color": "#15803d", "name": "Accent" },
-				{ "slug": "muted", "color": "#f5f5f4", "name": "Muted" },
-				{ "slug": "subtle", "color": "#57534e", "name": "Subtle text" }
+				{
+					"slug": "base",
+					"color": "#ffffff",
+					"name": "Base"
+				},
+				{
+					"slug": "contrast",
+					"color": "#1c1917",
+					"name": "Contrast"
+				},
+				{
+					"slug": "accent",
+					"color": "#147338",
+					"name": "Accent"
+				},
+				{
+					"slug": "muted",
+					"color": "#f5f5f4",
+					"name": "Muted"
+				},
+				{
+					"slug": "subtle",
+					"color": "#57534e",
+					"name": "Subtle text"
+				}
 			]
 		}
 	}
