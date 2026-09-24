@@ -1,0 +1,15 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"landingPage": "/",
+	"steps": [
+		{ "step": "login" },
+		{
+			"step": "installTheme",
+			"themeData": {
+				"resource": "url",
+				"url": "https://codeload.github.com/silasantosh/nonprofit-seva/zip/refs/heads/main"
+			},
+			"options": { "activate": true }
+		}
+	]
+}
