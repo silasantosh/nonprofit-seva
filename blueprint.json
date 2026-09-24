@@ -1,15 +1,23 @@
 {
-	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
-	"landingPage": "/",
-	"steps": [
-		{ "step": "login" },
-		{
-			"step": "installTheme",
-			"themeData": {
-				"resource": "url",
-				"url": "https://codeload.github.com/silasantosh/nonprofit-seva/zip/refs/heads/main"
-			},
-			"options": { "activate": true }
-		}
-	]
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/",
+  "steps": [
+    {
+      "step": "login"
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "url",
+        "url": "https://codeload.github.com/silasantosh/nonprofit-seva/zip/refs/heads/main"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php\nrequire_once '/wordpress/wp-load.php';\nupdate_option( 'blogname', 'Seva Foundation' );\nupdate_option( 'blogdescription', 'Every rupee reaches the work.' );\n$pages = array(\n\tarray( 'Donate', 'donate', 'donate-page' ),\n\tarray( 'Transparency', 'transparency', 'transparency-page' ),\n\tarray( 'Programs', 'programs', 'programs-grid' ),\n\tarray( 'Impact Stories', 'stories', 'impact-stories' ),\n\tarray( 'Volunteer', 'volunteer', 'volunteer-signup' ),\n\tarray( 'Trustees', 'trustees', 'trustees' ),\n);\nforeach ( $pages as $p ) {\n\tif ( ! get_page_by_path( $p[1] ) ) {\n\t\twp_insert_post( array(\n\t\t\t'post_title'   => $p[0],\n\t\t\t'post_name'    => $p[1],\n\t\t\t'post_status'  => 'publish',\n\t\t\t'post_type'    => 'page',\n\t\t\t'post_content' => '<!-- wp:pattern {\"slug\":\"nonprofit-seva/' . $p[2] . '\"} /-->',\n\t\t) );\n\t}\n}\n"
+    }
+  ]
 }
