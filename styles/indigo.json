@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Indigo",
+	"slug": "indigo",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "slug": "base", "color": "#ffffff", "name": "Base" },
+				{ "slug": "contrast", "color": "#1c1917", "name": "Contrast" },
+				{ "slug": "accent", "color": "#4338ca", "name": "Accent" },
+				{ "slug": "muted", "color": "#f5f5f4", "name": "Muted" },
+				{ "slug": "subtle", "color": "#57534e", "name": "Subtle text" }
+			]
+		}
+	}
+}
