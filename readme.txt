@@ -41,4 +41,6 @@ Add the Transparency page pattern, upload your PDFs into the file blocks, and ed
 * Initial release.
 
 == Credits ==
+Copyright 2026 Impact Connect. Nonprofit Seva is licensed under the GNU General Public License v2 or later; see LICENSE.
+
 Built by Impact Connect (started by Santosh Kumar). System font stack; no bundled fonts or images.
