@@ -15,7 +15,7 @@
 	<p class="has-text-align-center">Two hours a week changes a life. Tell us how you want to help.</p>
 	<!-- /wp:paragraph -->
 	<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-	<p class="has-text-align-center has-small-font-size">Place any free form plugin's block here - or keep the buttons below, they work with no plugin at all.</p>
+	<p class="has-text-align-center has-small-font-size">Place any free form plugin's block here - or keep the buttons below, they work with no plugin at all. With a form, add a consent checkbox and link your Privacy Policy: by submitting, visitors agree to be contacted about volunteering.</p>
 	<!-- /wp:paragraph -->
 	<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 	<div class="wp-block-buttons">
