@@ -27,9 +27,13 @@
 			<!-- wp:paragraph -->
 			<p>Scan with any UPI app - GPay, PhonePe, Paytm, BHIM. Add your QR image below.</p>
 			<!-- /wp:paragraph -->
-			<!-- wp:image {"sizeSlug":"large","style":{"border":{"radius":"8px"}}} -->
-			<figure class="wp-block-image size-large has-custom-border"><img alt="UPI QR code for donations" style="border-radius:8px"/></figure>
-			<!-- /wp:image -->
+			<!-- wp:group {"style":{"border":{"radius":"8px","width":"2px","style":"dashed","color":"var:preset|color|subtle"},"spacing":{"padding":{"top":"3rem","bottom":"3rem","left":"1rem","right":"1rem"}}},"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group" style="border-color:var(--wp--preset--color--subtle);border-style:dashed;border-width:2px;border-radius:8px;padding-top:3rem;padding-right:1rem;padding-bottom:3rem;padding-left:1rem">
+				<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
+				<p class="has-text-align-center has-small-font-size">Your UPI QR code image goes here. Tap this box, replace it with an Image block, upload your QR.</p>
+				<!-- /wp:paragraph -->
+			</div>
+			<!-- /wp:group -->
 			<!-- wp:paragraph {"fontSize":"small"} -->
 			<p class="has-small-font-size">UPI ID: yourorg@upi - replace with yours</p>
 			<!-- /wp:paragraph -->
@@ -41,7 +45,7 @@
 			<h2 class="wp-block-heading">Or give online</h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph -->
-			<p>Install the free GiveWP plugin and place its donation form block here - this theme styles it to look native. Cards, netbanking and more through your own payment account.</p>
+			<p>Install the free GiveWP plugin and place its donation form block here - this theme styles it to look native. Cards, netbanking and more through your own payment account. Add a consent checkbox to the form and link your Privacy Policy - by donating, visitors share their name, email and PAN (for the 80G receipt) with your NGO only.</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
