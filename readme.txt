@@ -1,12 +1,12 @@
 === Nonprofit Seva ===
 Contributors: silasantosh
 Requires at least: 6.6
-Tested up to: 6.8
+Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Tags: block-patterns, block-styles, accessibility-ready, custom-colors, blog, education
+Tags: block-patterns, block-styles, full-site-editing, custom-colors, blog, education
 
 A free, India-first block theme for nonprofits and NGOs.
 
@@ -37,6 +37,9 @@ No. Everything in the theme is free and works with zero plugins.
 Add the Transparency page pattern, upload your PDFs into the file blocks, and edit the registration list.
 
 == Changelog ==
+= 0.1.1 =
+* Review fixes: removed Author URI, swapped accessibility-ready tag for full-site-editing, made all pattern strings translation-ready, updated Tested up to.
+
 = 0.1.0 =
 * Initial release.
 
