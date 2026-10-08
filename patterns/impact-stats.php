@@ -13,30 +13,30 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"x-large","style":{"typography":{"fontWeight":"800"},"color":{"text":"var:preset|color|accent"}}} -->
-			<h3 class="wp-block-heading has-text-align-center has-text-color has-x-large-font-size" style="color:var(--wp--preset--color--accent);font-weight:800">12,400</h3>
+			<h3 class="wp-block-heading has-text-align-center has-text-color has-x-large-font-size" style="color:var(--wp--preset--color--accent);font-weight:800"><?php echo esc_html__( '12,400', 'nonprofit-seva' ); ?></h3>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"align":"center"} -->
-			<p class="has-text-align-center">Meals served</p>
+			<p class="has-text-align-center"><?php echo esc_html__( 'Meals served', 'nonprofit-seva' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"x-large","style":{"typography":{"fontWeight":"800"},"color":{"text":"var:preset|color|accent"}}} -->
-			<h3 class="wp-block-heading has-text-align-center has-text-color has-x-large-font-size" style="color:var(--wp--preset--color--accent);font-weight:800">38</h3>
+			<h3 class="wp-block-heading has-text-align-center has-text-color has-x-large-font-size" style="color:var(--wp--preset--color--accent);font-weight:800"><?php echo esc_html__( '38', 'nonprofit-seva' ); ?></h3>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"align":"center"} -->
-			<p class="has-text-align-center">Villages reached</p>
+			<p class="has-text-align-center"><?php echo esc_html__( 'Villages reached', 'nonprofit-seva' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"x-large","style":{"typography":{"fontWeight":"800"},"color":{"text":"var:preset|color|accent"}}} -->
-			<h3 class="wp-block-heading has-text-align-center has-text-color has-x-large-font-size" style="color:var(--wp--preset--color--accent);font-weight:800">210</h3>
+			<h3 class="wp-block-heading has-text-align-center has-text-color has-x-large-font-size" style="color:var(--wp--preset--color--accent);font-weight:800"><?php echo esc_html__( '210', 'nonprofit-seva' ); ?></h3>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"align":"center"} -->
-			<p class="has-text-align-center">Active volunteers</p>
+			<p class="has-text-align-center"><?php echo esc_html__( 'Active volunteers', 'nonprofit-seva' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
