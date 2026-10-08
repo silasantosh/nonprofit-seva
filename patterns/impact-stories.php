@@ -9,7 +9,7 @@
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 	<!-- wp:heading {"textAlign":"center"} -->
-	<h2 class="wp-block-heading has-text-align-center">Impact stories</h2>
+	<h2 class="wp-block-heading has-text-align-center"><?php echo esc_html__( 'Impact stories', 'nonprofit-seva' ); ?></h2>
 	<!-- /wp:heading -->
 	<!-- wp:query {"queryId":3,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":false},"align":"wide"} -->
 	<div class="wp-block-query alignwide">
@@ -23,7 +23,7 @@
 		<!-- /wp:post-template -->
 		<!-- wp:query-no-results -->
 			<!-- wp:paragraph {"align":"center"} -->
-			<p class="has-text-align-center">Publish your first story and it appears here. Text-only stories look great - no photos needed.</p>
+			<p class="has-text-align-center"><?php echo esc_html__( 'Publish your first story and it appears here. Text-only stories look great - no photos needed.', 'nonprofit-seva' ); ?></p>
 			<!-- /wp:paragraph -->
 		<!-- /wp:query-no-results -->
 	</div>
