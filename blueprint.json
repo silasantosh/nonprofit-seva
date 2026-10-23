@@ -9,7 +9,7 @@
       "step": "installTheme",
       "themeData": {
         "resource": "url",
-        "url": "https://codeload.github.com/silasantosh/nonprofit-seva/zip/refs/heads/main"
+        "url": "https://github.com/silasantosh/nonprofit-seva/releases/download/v0.1.5-preview.1/nonprofit-seva.zip"
       },
       "options": {
         "activate": true
