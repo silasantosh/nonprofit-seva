@@ -4,7 +4,10 @@
  * Slug: nonprofit-seva/terms
  * Categories: nonprofit-seva-pages
  * Description: Starter terms of use - voluntary donations, 80G receipts, refund contact. Lawyer review before publishing.
+ *
+ * @package Nonprofit_Seva
  */
+
 ?>
 <!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">

@@ -4,7 +4,10 @@
  * Slug: nonprofit-seva/transparency-page
  * Categories: nonprofit-seva-pages
  * Description: Compliance and trust page - certificates, annual reports and financials as downloads.
+ *
+ * @package Nonprofit_Seva
  */
+
 ?>
 <!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
@@ -46,10 +49,10 @@
 	<h2 class="wp-block-heading"><?php echo esc_html__( 'Annual reports and audited financials', 'nonprofit-seva' ); ?></h2>
 	<!-- /wp:heading -->
 	<!-- wp:file {"displayPreview":false} -->
-	<div class="wp-block-file"><a href="#"><?php echo esc_html__( 'Annual report 2025-26 (PDF)', 'nonprofit-seva' ); ?></a><a href="#" class="wp-block-file__button wp-element-button" download><?php echo esc_html__( 'Download', 'nonprofit-seva' ); ?></a></div>
+	<div class="wp-block-file"><a href="#"><?php echo esc_html__( 'Annual report [year] (PDF)', 'nonprofit-seva' ); ?></a><a href="#" class="wp-block-file__button wp-element-button" download><?php echo esc_html__( 'Download', 'nonprofit-seva' ); ?></a></div>
 	<!-- /wp:file -->
 	<!-- wp:file {"displayPreview":false} -->
-	<div class="wp-block-file"><a href="#"><?php echo esc_html__( 'Audited financials 2025-26 (PDF)', 'nonprofit-seva' ); ?></a><a href="#" class="wp-block-file__button wp-element-button" download><?php echo esc_html__( 'Download', 'nonprofit-seva' ); ?></a></div>
+	<div class="wp-block-file"><a href="#"><?php echo esc_html__( 'Audited financials [year] (PDF)', 'nonprofit-seva' ); ?></a><a href="#" class="wp-block-file__button wp-element-button" download><?php echo esc_html__( 'Download', 'nonprofit-seva' ); ?></a></div>
 	<!-- /wp:file -->
 </section>
 <!-- /wp:group -->

@@ -4,7 +4,10 @@
  * Slug: nonprofit-seva/impact-stories
  * Categories: nonprofit-seva-sections
  * Description: Recent stories as cards; strong with no photos.
+ *
+ * @package Nonprofit_Seva
  */
+
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">

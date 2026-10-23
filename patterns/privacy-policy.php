@@ -4,7 +4,10 @@
  * Slug: nonprofit-seva/privacy-policy
  * Categories: nonprofit-seva-pages
  * Description: DPDP 2023 starter privacy policy with placeholders - lawyer review before publishing.
+ *
+ * @package Nonprofit_Seva
  */
+
 ?>
 <!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">

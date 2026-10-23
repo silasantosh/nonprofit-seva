@@ -4,7 +4,10 @@
  * Slug: nonprofit-seva/hero-home
  * Categories: nonprofit-seva-sections
  * Description: A type-led hero that looks complete with no logo and no photos.
+ *
+ * @package Nonprofit_Seva
  */
+
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"muted","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-muted-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
@@ -17,10 +20,13 @@
 	<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 	<div class="wp-block-buttons">
 		<!-- wp:button -->
-		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php echo esc_html__( 'Donate', 'nonprofit-seva' ); ?></a></div>
+		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://wordpress.org/plugins/impact-connect-nonprofits-donation/"><?php echo esc_html__( 'Donate', 'nonprofit-seva' ); ?></a></div>
 		<!-- /wp:button -->
 		<!-- wp:button {"className":"is-style-outline"} -->
-		<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button"><?php echo esc_html__( 'See our work', 'nonprofit-seva' ); ?></a></div>
+		<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/programs/"><?php echo esc_html__( 'See our work', 'nonprofit-seva' ); ?></a></div>
+		<!-- wp:button {"className":"is-style-outline"} -->
+		<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="https://wordpress.org/plugins/nonprofit-forms/"><?php echo esc_html__( 'Forms', 'nonprofit-seva' ); ?></a></div>
+		<!-- /wp:button -->
 		<!-- /wp:button -->
 	</div>
 	<!-- /wp:buttons -->

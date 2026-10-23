@@ -4,7 +4,10 @@
  * Slug: nonprofit-seva/donate-page
  * Categories: nonprofit-seva-pages
  * Description: Full donate page - 80G tax note front and center, UPI/QR layout, suggested amounts.
+ *
+ * @package Nonprofit_Seva
  */
+
 ?>
 <!-- wp:group {"tagName":"section","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
@@ -12,7 +15,7 @@
 	<!-- wp:group {"style":{"border":{"radius":"8px"},"spacing":{"padding":{"top":"1rem","bottom":"1rem","left":"1.25rem","right":"1.25rem"}}},"backgroundColor":"muted","layout":{"type":"constrained"}} -->
 	<div class="wp-block-group has-muted-background-color has-background" style="border-radius:8px;padding-top:1rem;padding-right:1.25rem;padding-bottom:1rem;padding-left:1.25rem">
 		<!-- wp:paragraph {"align":"center"} -->
-		<p class="has-text-align-center"><strong><?php echo esc_html__( 'Your donation is eligible for 50% tax exemption under Section 80G', 'nonprofit-seva' ); ?></strong> <?php echo esc_html__( 'of the Income Tax Act. Replace this note with your own 80G registration details.', 'nonprofit-seva' ); ?></p>
+		<p class="has-text-align-center"><strong><?php echo esc_html__( 'Tax benefit under Section 80G: only if your organisation holds a valid 80G registration.', 'nonprofit-seva' ); ?></strong> <?php echo esc_html__( 'Replace this note with your registration number, its validity dates and the deduction that applies to your donors, and check them with your accountant. Delete this note if you do not have 80G.', 'nonprofit-seva' ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
@@ -45,17 +48,10 @@
 			<h2 class="wp-block-heading"><?php echo esc_html__( 'Or give online', 'nonprofit-seva' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph -->
-			<p><?php echo esc_html__( 'Install the free GiveWP plugin and place its donation form block here - this theme styles it to look native. Cards, netbanking and more through your own payment account. Add a consent checkbox to the form and link your Privacy Policy - by donating, visitors share their name, email and PAN (for the 80G receipt) with your NGO only.', 'nonprofit-seva' ); ?></p>
+			<p><?php echo esc_html__( 'Install a donation plugin from WordPress.org, for example the free GiveWP, and place its donation form block here. The theme only supplies the layout; it does not take payments. Test one small donation before you publish. Cards, netbanking and more through your own payment account. Add a consent checkbox to the form and link your Privacy Policy - by donating, visitors share their name, email and PAN (for the 80G receipt) with your NGO only.', 'nonprofit-seva' ); ?></p>
 			<!-- /wp:paragraph -->
-			<!-- wp:buttons -->
-			<div class="wp-block-buttons">
-				<!-- wp:button -->
-				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php echo esc_html__( 'Donate online', 'nonprofit-seva' ); ?></a></div>
-				<!-- /wp:button -->
-			</div>
-			<!-- /wp:buttons -->
 			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size"><?php echo esc_html__( 'Suggested: Rs 500 feeds a child for a week - tell donors what each amount does.', 'nonprofit-seva' ); ?></p>
+			<p class="has-small-font-size"><?php echo esc_html__( 'Example: tell donors what each amount does, using figures that are true for your organisation.', 'nonprofit-seva' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

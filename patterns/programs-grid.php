@@ -4,7 +4,10 @@
  * Slug: nonprofit-seva/programs-grid
  * Categories: nonprofit-seva-sections
  * Description: Program cards that work with or without images.
+ *
+ * @package Nonprofit_Seva
  */
+
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
